@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    background-color: rgba(124, 162, 232, 0.218);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(14, 13, 13, 0.1);
+    text-align: center;
+    width: 300px;
+    opacity: 80%;
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+}
+
+.login-box form input[type="email"], 
+.login-box form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-box form .remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.login-box form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #090908;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login-box form a {
+    color: #b3d2f3;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+}
+
+.login-box form p {
+    font-size: 12px;
+    color: #777;
+    margin-top: 15px;
+}
+
+.login-box form p a {
+    color: #b3d2f3;
+    text-decoration: none;
+}
